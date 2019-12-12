@@ -11,7 +11,7 @@
 
 ## TODO:
 - manually tag part of test set
-+ xml parsing (train)
+- (done) _xml parsing (train)_
 - extract adj (Mystem, UDPipe)
 - find negators and adversaries
 - extend seeds
