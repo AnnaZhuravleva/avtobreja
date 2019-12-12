@@ -10,10 +10,10 @@
 - [graph measures of co-occurence](http://www.dialog-21.ru/media/3388/dubatovkaaetal.pdf)
 
 ## TODO:
-- manually tag part of test set
-- (done) _xml parsing (train)_
-- extract adj (Mystem, UDPipe)
-- find negators and adversaries
-- extend seeds
-- apply graph method
-- apply pmi method
+- manually tag part of test set Галя
+- (done) _xml parsing (train)_ Галя
+- extract adj (Mystem, UDPipe) ася
+- find negators and adversaries ?ася??
+- extend seeds галя
+- apply graph method лера (?)
+- apply pmi method аня
