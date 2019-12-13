@@ -17,3 +17,6 @@
 - extend seeds галя
 - apply graph method лера (?)
 - apply pmi method аня
+- apply method from sem7
+- expand w2v
+- expand wordnet (RuTez/wikiwordnet)
