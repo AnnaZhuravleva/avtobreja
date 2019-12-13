@@ -11,8 +11,9 @@
 
 ## TODO:
 - manually tag part of test set Галя
+- scan articles Галя
 - (done) _xml parsing (train)_ Галя
-- extract adj (Mystem, UDPipe) ася
+- UDPipe ася
 - find negators and adversaries ?ася??
 - extend seeds галя
 - apply graph method лера (?)
@@ -20,3 +21,5 @@
 - apply method from sem7
 - expand w2v
 - expand wordnet (RuTez/wikiwordnet)
+
+Lexicon not only adj (any tokens and bigrams)
