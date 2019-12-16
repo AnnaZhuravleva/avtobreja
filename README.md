@@ -13,7 +13,7 @@
 - manually tag part of test set Галя
 - scan articles Галя
 - (done) _xml parsing (train)_ Галя
-- UDPipe ася
+- (done) UDPipe ася
 - find negators and adversaries ?ася??
 - extend seeds галя
 - apply graph method лера (?)
