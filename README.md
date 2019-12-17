@@ -21,5 +21,6 @@
 - apply method from sem7
 - expand w2v
 - expand wordnet (RuTez/wikiwordnet)
+- реферат: [пилится тут](https://docs.google.com/document/d/1Jw6Pq2_npgSXZfwNE-xQ6zGojZtvn960ngNLisqNv8A/edit?usp=sharing) Ася и все остальные
 
 Lexicon not only adj (any tokens and bigrams)
