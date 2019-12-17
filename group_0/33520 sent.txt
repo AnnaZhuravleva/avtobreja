@@ -1,0 +1,7 @@
+4	1	food	1
+4	1	service	1
+5	1,2	service	1
+5	2	service	1
+5	3,4,5	service	1
+7	6,7	food	1
+
