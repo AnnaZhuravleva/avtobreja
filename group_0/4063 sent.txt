@@ -11,7 +11,6 @@
 4	17,18	service	0
 6	5	food	1
 6	5,6	food	0
-7	7	service	0
 7	12,13	service	0
 7	13	service	1
 7	13,14	service	1
