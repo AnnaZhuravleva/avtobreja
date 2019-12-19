@@ -23,7 +23,6 @@
 
 ### methods of extracting sentiment words
 - (done) _apply vector method_ Лера
-  - lemmatize beforehand?
 - apply graph method ?Ася??
   - find negators and adversaries ?Ася??
 - apply pmi method Аня
