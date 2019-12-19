@@ -19,6 +19,7 @@
 ### preprocessing
 - (done) _xml parsing (train)_ Галя
 - (done) _UDPipe_ Ася
+  - fix lemmatization (* and «»)
 
 ### methods of extracting sentiment words
 - (done) _apply vector method_ Лера
