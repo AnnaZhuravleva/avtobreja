@@ -39,16 +39,15 @@
 - (done) _adagram_
 - add bigrams
 
+### filter sentiment words
+- (done) _methods intersection_ Аня
+
 ### expanding key words
 - (done) _same as expanding sentiment words_ Аня (Возможно, для ключей стоит расширять только существительные и глаголы и только по гипонимам)
 - (done) _by CNN_ Галя
 - by clustring w2v on domain specific words
   - extract  domain specific words
   - cluster around centroids of manually extracted keys
-
-### filter sentiment words
-- (done) _methods intersection_ Аня
-- check by scores Аня??? (Если в тексте в целом стоит очень низкая оценка сервиса, то слова, которые мы отнесли к аспекту сервиса из этого текста автоматически можно взвесить в отрицательную сторону пропорционально оценке)
 
 ### aspect separation
 - слово по трейну сочетается больше со словами из одного списка ключей, чем из другого (сильно больше, потому что если 45/55% то надо и туда и туда)
