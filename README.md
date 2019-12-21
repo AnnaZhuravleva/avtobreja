@@ -19,13 +19,10 @@
 ### preprocessing
 - (done) _xml parsing (train)_ Галя
 - (done) _UDPipe_ Ася
-  - fix lemmatization (* and «»)
+  - (done) _fix lemmatization_ (* and «» didgits)
 
 ### methods of extracting sentiment words
 - (done) _apply vector method_ Лера
-- apply graph method ?Ася??
-  - find negators and adversaries ?Ася??
-- apply pmi method Аня
 - (done) _apply method from sem7_ Галя
 
 ### expanding sentiment words (Аня)
@@ -36,9 +33,9 @@
 - (done) _adagram_
 
 ### filter sentiment words
-- methods intersection
+- (done) _methods intersection_ (Аня)
 - on co-occurence (если по словарю сочетаемости / по нашему корпусу тональное слово никогда не сочетается со словами из списка, мы его выбрасываем) Лера
-- check by scores: Если в тексте в целом стоит очень низкая оценка сервиса, то слова, которые мы отнесли к аспекту сервиса из этого текста автоматически можно взвесить в отрицательную сторону пропорционально оценке.
+- check by scores (Аня) (Если в тексте в целом стоит очень низкая оценка сервиса, то слова, которые мы отнесли к аспекту сервиса из этого текста автоматически можно взвесить в отрицательную сторону пропорционально оценке)
 
 ### aspect separation
 - слово по трейну сочетается больше со словами из одного списка ключей, чем из другого (сильно больше, потому что если 45/55% то надо и туда и туда)
