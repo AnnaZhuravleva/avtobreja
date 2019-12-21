@@ -29,6 +29,7 @@
 ### methods of extracting sentiment words
 - (done) _apply vector method_ Лера
 - (done) _apply method from sem7_ Галя
+- apply graph method Ася
 
 ### expanding sentiment words (Аня)
 - (done) _w2v_
