@@ -26,14 +26,14 @@
 - apply graph method ?Ася??
   - find negators and adversaries ?Ася??
 - apply pmi method Аня
-- apply method from sem7 Галя
+- (done) _apply method from sem7_ Галя
 
 ### expanding sentiment words (Аня)
-- w2v
-- expand via thesaurus (Возможно, для ключей стоит расширять только существительные и глаголы и только по гипонимам. Зато их, наверное, можно как-то расширять по словарю сочетаемости)
-  - RuTez
-  - wikiwordnet
-- adagram
+- (done) _w2v_
+- (done) _expand via thesaurus_ (Возможно, для ключей стоит расширять только существительные и глаголы и только по гипонимам. Зато их, наверное, можно как-то расширять по словарю сочетаемости)
+  - (done) _RuTez_
+  - (done) _wikiwordnet_
+- (done) _adagram_
 
 ### filter sentiment words
 - methods intersection
