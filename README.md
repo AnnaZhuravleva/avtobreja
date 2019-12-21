@@ -9,6 +9,11 @@
 - [use more seeds for PMI](https://www.aclweb.org/anthology/C16-1147.pdf) - SO(w) = pmi(w, pos) − pmi(w, neg)
 - [graph measures of co-occurence](http://www.dialog-21.ru/media/3388/dubatovkaaetal.pdf)
 
+## Полезные ссылки
+- [UDPipe parsed](https://drive.google.com/open?id=181szxLRYHorRrzGTcA1XwwA23MVy7F90)
+- [UDPipe lemmatized and POS-tagged dataset](https://drive.google.com/open?id=1oqzArfz05A7Wecfs95FXPy1VyjU2tnkx)
+- [ruscorpora_upos_cbow_300_20_2019](http://vectors.nlpl.eu/repository/11/180.zip)
+
 ## TODO:
 
 ### manual labor
