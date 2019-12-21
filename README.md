@@ -33,13 +33,14 @@
 
 ### expanding sentiment words (Аня)
 - (done) _w2v_
-- (done) _expand via thesaurus_ (Возможно, для ключей стоит расширять только существительные и глаголы и только по гипонимам. Зато их, наверное, можно как-то расширять по словарю сочетаемости)
+- (done) _expand via thesaurus_
   - (done) _RuTez_
   - (done) _wikiwordnet_
 - (done) _adagram_
 - add bigrams (Аня)
 
 ### expanding key words
+- (done) _same as expanding sentiment words_ (Аня) (Возможно, для ключей стоит расширять только существительные и глаголы и только по гипонимам)
 - (done) _by CNN_ (Галя)
 - by clustring w2v on domain specific words
   - extract  domain specific words
