@@ -39,6 +39,12 @@
 - (done) _adagram_
 - add bigrams (Аня)
 
+### expanding key words
+- (done) _by CNN_ (Галя)
+- by clustring w2v on domain specific words
+  - extract  domain specific words
+  - cluster around centroids of manually extracted keys
+
 ### filter sentiment words
 - (done) _methods intersection_ (Аня)
 - check by scores (Аня) (Если в тексте в целом стоит очень низкая оценка сервиса, то слова, которые мы отнесли к аспекту сервиса из этого текста автоматически можно взвесить в отрицательную сторону пропорционально оценке)
