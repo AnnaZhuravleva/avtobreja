@@ -49,10 +49,6 @@
 - by clustring w2v on domain specific words Лера
   - extract  domain specific words
   - cluster around centroids of manually extracted keys
-
-### aspect separation
-- слово по трейну сочетается больше со словами из одного списка ключей, чем из другого (сильно больше, потому что если 45/55% то надо и туда и туда)
-- слово ворд-ту веком больше похоже на уже проверенные слова одного аспекта, а не другого
      
 ### detect sentiment words using created vocabulary
 #### extracting sentiment words with our ready vocabulary
