@@ -37,7 +37,7 @@
   - (done) _RuTez_
   - (done) _wikiwordnet_
 - (done) _adagram_
-- add bigrams
+- (done) _add bigrams and trigrams_ Аня
 
 ### filter sentiment words
 - (done) _methods intersection_ Аня
@@ -45,7 +45,7 @@
 ### expanding key words
 - (done) _same as expanding sentiment words_ Аня (Возможно, для ключей стоит расширять только существительные и глаголы и только по гипонимам)
 - (done) _by CNN_ Галя
-- by clustring w2v on domain specific words
+- by clustring w2v on domain specific words Лера
   - extract  domain specific words
   - cluster around centroids of manually extracted keys
 
