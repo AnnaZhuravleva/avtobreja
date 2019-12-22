@@ -34,7 +34,6 @@
 ### expanding sentiment words (Аня)
 - (done) _w2v_
 - (done) _expand via thesaurus_
-  - (done) _RuTez_
   - (done) _wikiwordnet_
 - (done) _adagram_
 - (done) _add bigrams and trigrams_ Аня
