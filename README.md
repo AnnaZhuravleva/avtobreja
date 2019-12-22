@@ -13,6 +13,7 @@
 - [UDPipe parsed](https://drive.google.com/open?id=181szxLRYHorRrzGTcA1XwwA23MVy7F90)
 - [UDPipe lemmatized and POS-tagged dataset](https://drive.google.com/open?id=1oqzArfz05A7Wecfs95FXPy1VyjU2tnkx)
 - [ruscorpora_upos_cbow_300_20_2019](http://vectors.nlpl.eu/repository/11/180.zip)
+- [neutral corpus RuWac 9Gb](http://corpus.leeds.ac.uk/tools/ru/ruwac-parsed.out.xz)
 
 ## TODO:
 
