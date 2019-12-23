@@ -1,14 +1,15 @@
 # newdoc
 # newpar
 # sent_id = 1
-# text = ресторан плохой.
-1	ресторан	ресторан	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
-2	плохой	плохой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
-3	.	.	PUNCT	_	_	2	punct	_	_
-
-# sent_id = 2
-# text = Еда хорошая!
-1	Еда	еда	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
-2	хорошая	хороший	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
-3	!	!	PUNCT	_	_	2	punct	_	SpaceAfter=No
+# text = Очень красивый город, мы пробовали очень вкусную еду!
+1	Очень	очень	ADV	_	Degree=Pos	2	obl	_	_
+2	красивый	красивый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	город	город	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	6	nsubj	_	_
+6	пробовали	пробовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	очень	очень	ADV	_	Degree=Pos	8	obl	_	_
+8	вкусную	вкусный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	еду	еда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+10	!	!	PUNCT	_	_	6	punct	_	_
 
