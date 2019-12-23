@@ -11,4 +11,4 @@
 - [еда](https://github.com/AnnaZhuravleva/avtobreja/blob/master/seeds/final_food_scores.csv)
 - [сервис](https://github.com/AnnaZhuravleva/avtobreja/blob/master/seeds/final_service_scores.csv)
 ## Код к заданию 2
-- INSERT LINK HERE WHEN DONE
+- [task 2](https://github.com/AnnaZhuravleva/avtobreja/tree/master/task_2)
