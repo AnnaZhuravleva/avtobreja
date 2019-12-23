@@ -170,9 +170,9 @@ def check_list(word, food_list, service_list):
     with open(service_list, 'r', encoding='utf-8') as f:
         service = list(f.read().split('\n'))
     result = None
-    if word in food:
+    if word.lower() in food:
         result = 'food'
-    elif word in service:
+    elif word.lower() in service:
         result = 'service'
     return result
 
