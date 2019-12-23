@@ -1,0 +1,14 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ресторан плохой.
+1	ресторан	ресторан	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	плохой	плохой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 2
+# text = Еда хорошая!
+1	Еда	еда	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	хорошая	хороший	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	_	_	2	punct	_	SpaceAfter=No
+
