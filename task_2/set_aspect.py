@@ -1,5 +1,3 @@
-# C:\Users\qwe\Documents\HSE\cosyco\udpipe\udpipe-1.2.0-bin\bin-win64\udpipe --output conllu --parse C:\Users\qwe\Documents\HSE\cosyco\udpipe\russian-syntagrus-ud-2.4-190531.udpipe < C:\Users\qwe\Documents\HSE\cosyco\norm_xix.conllu > C:\Users\qwe\Documents\HSE\cosyco\norm_xix_p.conllu
-
 import os
 import csv
 import logging
@@ -23,7 +21,6 @@ LOGGER.addHandler(fh)
 def extract_fourgrams(path):
     with open(path, 'r', encoding='utf-8') as f1:
         fourgrams = {}
-        coder = {}
         unit = {}
         dep = defaultdict(list)
         idx = 0
@@ -36,16 +33,14 @@ def extract_fourgrams(path):
                 if unit:
                     idx += 1
                     fourgrams[idx] = []
-                    coder[idx] = []
                 for t in unit:
                     deps = find_dep4(dep, unit[t])
                     if deps:
-                        grams, encoder = build_conseq(deps, unit)
-                        fourgrams[idx] += grams
-                        coder[idx] += encoder
+                        for item in build_conseq(deps, unit):
+                            fourgrams[idx].append(item)
                 unit = {}
                 dep = defaultdict(list)
-    return fourgrams, coder
+    return fourgrams
 
 
 def find_dep4(dep, t):
@@ -74,15 +69,14 @@ def find_dep4(dep, t):
 
 def build_conseq(tree, unit):
     result = []
-    coder = []
     for t1 in tree[1:]:
         for t2 in t1[1:]:
             for t3 in t2[1:]:
                 for t4 in t3:
                     line = [tree[0], t1[0], t2[0], t4]
-                    result.append([unit[i][2]+'_'+unit[i][3] for i in line])
-                    coder.append([unit[i][0]for i in line])
-    return result, coder
+                    a = [[unit[i][0], unit[i][2]+'_'+unit[i][3]] for i in line]
+                    result.append(a)
+    return result
 
 
 def extract_words(unit):
@@ -130,7 +124,7 @@ def find_ngrams(filepath):
         onegrams = {}
         bigrams = {}
         trigrams = {}
-        fourgrams = {}
+        fourgrams = extract_fourgrams(filepath)
         unit = {}
         dep = defaultdict(list)
         idx = 0
@@ -145,12 +139,6 @@ def find_ngrams(filepath):
                     onegrams[idx] = extract_words(unit)
                     bigrams[idx] = extract_bigrams(unit, dep)
                     trigrams[idx] = extract_trigrams(unit, dep)
-                    fourgrams[idx] = []
-                for t in unit:
-                    deps = find_dep4(dep, unit[t])
-                    if deps:
-                        grams, encoder = build_conseq(deps, unit)
-                        fourgrams[idx] += grams
                 unit = {}
                 dep = defaultdict(list)
     return onegrams, bigrams, trigrams, fourgrams
@@ -233,7 +221,8 @@ def find_aspect(filepath, food_path, serv_path, food_keys, service_keys):
     for idx in one:
         grams = [i for i in one[idx]] + \
                 [i for i in two[idx]] + \
-                [i for i in three[idx]]
+                [i for i in three[idx]] + \
+                [i for i in four[idx]]
         for i in grams:
             score = set_score(food, service, food_b, service_b, i)
             if len(score) > 1:
