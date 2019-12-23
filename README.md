@@ -6,6 +6,7 @@
 - [Ася Сидорова](https://github.com/SerasLain)
 ## [Реферат](https://github.com/AnnaZhuravleva/avtobreja/blob/master/referat.pdf)
 ## [Отчёт](https://github.com/AnnaZhuravleva/avtobreja/blob/master/report.ipynb)
+В отчёт входит навигация по репозиторию, так что не пугайтесь.
 ## Тональные словари
 - [еда](https://github.com/AnnaZhuravleva/avtobreja/blob/master/seeds/final_food_scores.csv)
 - [сервис](https://github.com/AnnaZhuravleva/avtobreja/blob/master/seeds/final_service_scores.csv)
