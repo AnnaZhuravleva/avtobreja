@@ -235,7 +235,8 @@ def find_aspect(filepath, food_path, serv_path, food_keys, service_keys):
                         elif defsc == 'service':
                             res += (score[1], score[2])['food' in score[1]]
                         else:
-                            res += score[1] + '\t' + score[2]
+                            res += score[1] + '\n' + str(idx) + '\t' + \
+                                   score[0] + '\t' + score[2]
                     if len(score) == 2:
                         res += score[1]
                     fo.write(res)
