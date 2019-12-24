@@ -226,6 +226,7 @@ def find_aspect(filepath, food_path, serv_path, food_keys, service_keys):
         for i in grams:
             score = set_score(food, service, food_b, service_b, i)
             if len(score) > 1:
+                a = True
                 with open('score.txt', 'a', encoding='utf-8') as fo:
                     res = str(idx) + '\t' + score[0] + '\t'
                     if len(score) == 3:
@@ -235,12 +236,18 @@ def find_aspect(filepath, food_path, serv_path, food_keys, service_keys):
                         elif defsc == 'service':
                             res += (score[1], score[2])['food' in score[1]]
                         else:
-                            res += score[1] + '\n' + str(idx) + '\t' + \
-                                   score[0] + '\t' + score[2]
+                            with open('score2.txt', 'a',
+                                      encoding='utf-8') as fo2:
+                                res += score[1] + '\n' + str(idx) + '\t' + \
+                                       score[0] + '\t' + score[2] + '\n'
+                                fo2.write(res)
+                                a = False
                     if len(score) == 2:
                         res += score[1]
-                    fo.write(res)
-                    fo.write('\n')
+                    if a is True:
+                        fo.write(res)
+                        fo.write('\n')
+
 
 
 if __name__ == '__main__':
