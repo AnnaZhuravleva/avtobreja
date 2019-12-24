@@ -1,15 +1,27 @@
 # newdoc
 # newpar
 # sent_id = 1
-# text = Очень красивый город, мы пробовали очень вкусную еду!
-1	Очень	очень	ADV	_	Degree=Pos	2	obl	_	_
-2	красивый	красивый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
-3	город	город	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	3	punct	_	_
-5	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	6	nsubj	_	_
-6	пробовали	пробовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-7	очень	очень	ADV	_	Degree=Pos	8	obl	_	_
-8	вкусную	вкусный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
-9	еду	еда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
-10	!	!	PUNCT	_	_	6	punct	_	_
+# text = Я помню чудное мгновенье:
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	2	nsubj	_	_
+2	помню	помнить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	чудное	чудной	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	мгновенье	мгновение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Передо мной явилась ты, Как мимолетное виденье, Как гений чистой красоты.
+1	Передо	перед	ADP	_	_	2	case	_	_
+2	мной	я	PRON	_	Case=Ins|Number=Sing|Person=1	3	obl	_	_
+3	явилась	явиться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	ты	ты	PRON	_	Case=Nom|Number=Sing|Person=2	3	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+6	Как	как	SCONJ	_	_	8	mark	_	_
+7	мимолетное	мимолетный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	виденье	видение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	advcl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+10	Как	как	SCONJ	_	_	11	mark	_	_
+11	гений	гений	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	8	acl	_	_
+12	чистой	чистый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	красоты	красота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
